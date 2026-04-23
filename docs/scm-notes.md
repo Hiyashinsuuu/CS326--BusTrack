@@ -1,4 +1,3 @@
-annyeong heseyo
 # SCM Notes – Branch & Merge Log
 
 ## Project: BusTrack – Real-Time Commuter Bus Information System
@@ -53,7 +52,7 @@ Communicate before editing shared files. Assign one owner per document per sprin
 
 | PR # | Branch | Description | Status |
 |------|--------|-------------|--------|
-| #1 | `feature/risk-management` | Add risk register and GitHub PR/issue templates | Merged |
-| #2 | `feature/route-search` | Add route search endpoint and UI component | Merged |
-| #3 | `bugfix/null-location-crash` | Fix BUG-001 null GPS location crash | Merged |
-| #4 | `release/v0.5-scm` | Sprint 1 release prep | Merged |
+| #1 | `feature/risk-management` | Add risk register and GitHub PR/issue templates | ✅ Merged |
+| #2 | `feature/route-search` | Add route search endpoint and UI component | ✅ Merged |
+| #3 | `bugfix/null-location-crash` | Fix BUG-001 null GPS location crash | ✅ Merged |
+| #4 | `release/v0.5-scm` | Sprint 1 release prep | ✅ Merged |
