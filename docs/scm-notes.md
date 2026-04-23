@@ -1,4 +1,5 @@
-<!-- edited locally -->
+
+<!-- edited locally and on GitHub -->
 # SCM Notes – Branch & Merge Log
 
 ## Project: BusTrack – Real-Time Commuter Bus Information System
@@ -27,11 +28,19 @@ When we tried to merge `feature/route-search` into `dev` after `feature/risk-man
 
 ### Conflict Output
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD (dev)
 | US-07 | Admin can update bus schedules | High | 5 | Admin dashboard saves and publishes changes within 1 minute. |
 =======
 | US-07 | Admin can update bus schedules | Medium | 5 | Admin can edit schedule entries. |
 >>>>>>> feature/route-search
+=======
+ HEAD (dev)
+| US-07 | Admin can update bus schedules | High | 5 | Admin dashboard saves and publishes changes within 1 minute. |
+
+| US-07 | Admin can update bus schedules | Medium | 5 | Admin can edit schedule entries. |
+ feature/route-search
+>>>>>>> a4d0a372f185bf78b9369f9b64114252e05604d1
 ```
 
 ### How We Resolved It
@@ -53,7 +62,14 @@ Communicate before editing shared files. Assign one owner per document per sprin
 
 | PR # | Branch | Description | Status |
 |------|--------|-------------|--------|
+<<<<<<< HEAD
 | #1 | `feature/risk-management` | Add risk register and GitHub PR/issue templates | ✅ Merged |
 | #2 | `feature/route-search` | Add route search endpoint and UI component | ✅ Merged |
 | #3 | `bugfix/null-location-crash` | Fix BUG-001 null GPS location crash | ✅ Merged |
 | #4 | `release/v0.5-scm` | Sprint 1 release prep | ✅ Merged |
+=======
+| #1 | `feature/risk-management` | Add risk register and GitHub PR/issue templates | Merged |
+| #2 | `feature/route-search` | Add route search endpoint and UI component | Merged |
+| #3 | `bugfix/null-location-crash` | Fix BUG-001 null GPS location crash | Merged |
+| #4 | `release/v0.5-scm` | Sprint 1 release prep | Merged |
+>>>>>>> a4d0a372f185bf78b9369f9b64114252e05604d1
