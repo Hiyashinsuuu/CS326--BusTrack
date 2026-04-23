@@ -1,4 +1,4 @@
-annyeong heseyo
+<!-- edited on GitHub -->
 # SCM Notes – Branch & Merge Log
 
 ## Project: BusTrack – Real-Time Commuter Bus Information System
