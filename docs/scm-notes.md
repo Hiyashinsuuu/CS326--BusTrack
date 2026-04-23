@@ -1,3 +1,4 @@
+<!-- edited locally -->
 # SCM Notes – Branch & Merge Log
 
 ## Project: BusTrack – Real-Time Commuter Bus Information System
