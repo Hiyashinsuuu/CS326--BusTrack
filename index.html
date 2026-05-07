@@ -5,7 +5,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NaaBus - Login</title>
 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NaaBus - Login</title>
+
   <style>
+    :root {
+      --bg-main: #0b0b1a;
+      --bg-input: #1a1a2e;
+      --primary: #6d28d9;
+      --primary-hover: #7c3aed;
+      --text-main: #ffffff;
+      --text-muted: #cbd5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 12px;
+      width: 320px;
+      box-shadow: 0 0 20px rgba(138, 43, 226, 0.2);
+    }
+
+    .title {
+      color: #a78bfa;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      margin-bottom: 25px;
+      color: var(--text-muted);
+    }
+
+    .input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      background: var(--bg-input);
+      color: var(--text-main);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 10px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--primary);
+      color: white;
+    }
+
+    .btn-outline:hover {
+      background: var(--primary);
+    }
+
+    .divider {
+      margin: 15px 0;
+      font-size: 12px;
+      color: #aaa;
+    }
     :root {
       --bg-main: #0b0b1a;
       --bg-input: #1a1a2e;
@@ -96,9 +186,6 @@
 </head>
 
 <body>
-  <h1>BusTrack</h1>
-  <p>Real-Time Commuter Bus Information System</p>
-  <div class="badge">Deployed via GitHub Pages</div>
   <div class="card">
     <h1 class="title">NaaBus?</h1>
     <p class="subtitle">Real-Time Commuter Bus Information System</p>
